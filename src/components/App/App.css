@@ -1,0 +1,86 @@
+.app{
+  height: 100%;
+  margin: 0 auto;
+  font: 16px/1.2 'Times New Roman', serif;
+  max-width: 800px;
+}
+
+.book_item {
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.book_item-title {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.book_item-sub_title {
+  font-size: 1rem;
+}
+
+.boo_item-image {
+  width: 75px;
+  height: 110px;
+  margin-right: 15px;
+  float: left;
+}
+
+.book_item-description {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.book_item-date,
+.book_item-authors {
+  font-style: italic;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.book_item-add_btn,
+.book_item-remove_btn {
+  margin-left: auto;
+  display: block;
+  width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.btn-search {
+  width: 180px;
+}
+
+.text-field {
+  margin-right: 20px;
+  width: 400px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.h3 {
+  font-size: 2rem;
+}
+
+.column {
+  flex-basis: 48%;
+}
+
+.column:first-child {
+  margin-right: 30px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid lightslategrey;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
