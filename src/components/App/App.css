@@ -1,86 +1,82 @@
-.app{
-  height: 100%;
-  margin: 0 auto;
-  font: 16px/1.2 'Times New Roman', serif;
-  max-width: 800px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.book_item {
-  border-bottom: 1px solid grey;
-  padding-bottom: 20px;
+h2 {
+    margin: 0;
+    font-weight: normal;
 }
 
-.book_item-title {
-  font-size: 1.1rem;
-  margin: 10px 0;
+.app {
+    margin: 0 auto;
+    font: 16px/1.2 'Open Sans',sans-serif;
+    display: flex;
 }
 
-.book_item-sub_title {
-  font-size: 1rem;
+.aside {
+    background-color: #2b2f3e;
+    flex-basis: 21%;
+    padding: 27px 0 0 30px;
 }
 
-.boo_item-image {
-  width: 75px;
-  height: 110px;
-  margin-right: 15px;
-  float: left;
+.aside_title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.625rem;
+    font-weight: 100;
+    margin: 0;
 }
 
-.book_item-description {
-  margin-top: 0;
-  font-size: 0.8rem;
+.aside_text {
+    color: #757577;
+    font-size: 0.8125rem;
 }
 
-.book_item-date,
-.book_item-authors {
-  font-style: italic;
-  text-align: right;
-  font-size: 0.8rem;
+.content-block {
+    display: flex;
+    flex-basis: 76%;
+    margin-left: 12px;
 }
 
-.book_item-add_btn,
-.book_item-remove_btn {
-  margin-left: auto;
-  display: block;
-  width: 200px;
+.items-wrap,
+.comment-wrap {
+    box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.4);
 }
 
-.clearfix {
-  clear: both;
+.items-wrap {
+    flex-basis: 52%;
+    margin-right: 15px;
 }
 
-.btn-search {
-  width: 180px;
+.items-wrap__h2,
+.comment-wrap__h2 {
+    font-size: 1.625rem;
+    padding: 30px 0 0 27px;
 }
 
-.text-field {
-  margin-right: 20px;
-  width: 400px;
+.comment-wrap__h2 {
+    margin-bottom: 46px;
 }
 
-.wrapper {
-  display: flex;
+.comment-wrap {
+    flex-basis: 46%;
 }
 
-.h3 {
-  font-size: 2rem;
+.item-list {
+    margin-bottom: 20px;
 }
 
-.column {
-  flex-basis: 48%;
+.item-list__elem {
+    position: relative;
 }
 
-.column:first-child {
-  margin-right: 30px;
-}
-
-.list {
-  list-style-type: none;
-  padding: 10px;
-  border: 1px solid lightslategrey;
-}
-
-.title {
-  font-size: 1.2rem;
-  font-weight: bold;
+.active:before {
+    content: '';
+    height: 100%;
+    width: 5px;
+    background-color: #ff2f5a;
+    position: absolute;
+    top: 0;
+    left: -2px;
 }
